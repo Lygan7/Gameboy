@@ -1,0 +1,211 @@
+
+
+@font-face {
+    font-family: 'PressStart2P-Regular';
+    src: url("font/PressStart2P-Regular.ttf");
+}
+
+.gameboy {
+
+        display: block;
+        margin: auto;
+        padding: auto;
+        padding-top: 50px;
+        width: 460px;
+        height: 700px;
+        background: rgb(197, 196, 196);
+        border-radius: 10px 10px 60px 10px;
+        box-shadow: 10px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+      }
+
+    header {
+        width: 100%;
+        height: 1px;
+        border-bottom: 6px solid;
+        border-color: #777;
+        display:block;
+        margin-bottom:15px;
+    }
+    header:after, header:before {
+        content:"";
+        height: 50px;
+        width: 6px;
+        border-top: 6px solid;
+        border-color: #777;
+
+    }
+
+ .gameboy .screen-container {
+        
+        width: 342px;
+        height: 272px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 58px;
+        background-color: #777;
+        border-radius: 10px 10px 60px 10px;
+ }
+ .gameboy .screen-container .screen {
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #c0b058;
+    width: 230px;
+    height: 200px;
+    box-shadow: inset 5px 5px rgba(0,0,0,0.15);
+ }
+
+.d-flex
+{
+    display:flex;
+}
+
+.controler-button {
+    width: 150px;
+    height: 150px;
+    background:rgb(197, 196, 196);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.vertical {
+    position: relative;
+    display:block;
+    width: 35px;
+    height: 100px;
+    background-color: black;
+    border-radius: 15px;
+    margin: auto;
+}
+.horizontal {
+    position: relative;
+    display:block;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    border-radius: 15px;
+    margin-block:-68px;
+    margin-left:25px
+}
+.button-a {
+    font-family: PressStart2P-Regular;
+    font-size: 10px;
+    color:darkblue;
+    width: 45px;
+    height: 45px;
+    margin-left: 200%;
+    background-color:#bb082f;
+    border-radius:100%;
+}
+
+.button-b {
+    font-family: PressStart2P-Regular;
+    font-size: 10px;
+    color:darkblue;
+    width: 45px;
+    height: 45px;
+    margin-left: 170%;
+    margin-bottom:60%;
+    background-color:#bb082f;
+    border-radius:100%;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 15px;
+    transform: rotate(-40deg);
+
+    
+}
+.btn2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 25px;
+    transform: rotate(-90deg);
+}
+.matrix {
+    font-family: PressStart2P-Regular;
+    font-size: 7px;
+    color:rgb(236, 236, 243);
+    align-items: center;
+    margin-left: 90px;
+    padding-top: 10px;
+}
+.battery {
+
+font-family: PressStart2P-Regular;
+font-size: 6px;
+color:rgb(236, 236, 243);
+align-items: center;
+margin-left: -50px;
+padding-top: 90px;
+    
+}
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 70px;
+    background-color:#000000;
+    border-radius:100%;
+}
+.name {
+    position: absolute;
+    font-family: PressStart2P-Regular;
+    font-size: 14px;
+    color:darkblue;
+    padding-left: 60px;
+    margin-top: -50px;
+    align-items: center;
+}
+.start {
+    background-color: #777;
+    width: 15px;
+    height: 45px;
+    transform: rotate(60deg);
+    border-radius: 20px;
+}
+.reset {
+    background-color: #777;
+    width: 15px;
+    height: 45px;
+    transform: rotate(60deg);
+    border-radius: 20px;
+}
+.start-reset {
+    font-family: PressStart2P-Regular;
+    font-size: 10px;
+    color:darkblue;
+    display:flex;
+    margin-left: 190px;
+    margin-right: 190px;
+    justify-content: space-between;
+
+}
+ul { list-style-type: none;}
+
+.aeration {
+    display: flex;
+    background-color:rgb(197, 196, 196);
+    margin-left: 70%;
+    justify-content: space-between;
+    margin-left: 75%;
+    margin-top: 20px;
+    margin-right: 20px;
+    transform: rotate(-40deg)
+
+}
+
+.air {
+    background-color: rgb(124, 121, 121);
+    border-color: rgb(197, 196, 196);
+    width: 10px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 3px 3px rgba(0,0,0,0.15);
+}
+
+
